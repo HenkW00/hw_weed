@@ -42,13 +42,11 @@ AddEventHandler('onResourceStart', function(resourceName)
         return
     end
 
-    local scriptName = GetCurrentResourceName() 
-
     local embed = {
         title = "Resource Started",
-        description = string.format("**%s** has been started.", scriptName), 
+        description = string.format("**%s** has been started.", resourceName), 
         fields = {
-            {name = "Current version", value = scriptVersion},
+            {name = "Current version", value = curVersion},
             {name = "Discord Server Link", value = "[Discord Server](https://discord.gg/j55z45bC)"}
         },
         footer = {
@@ -65,11 +63,9 @@ AddEventHandler('onResourceStop', function(resourceName)
         return
     end
 
-    local scriptName = GetCurrentResourceName() 
-
     local embed = {
         title = "Resource Stopped",
-        description = string.format("**%s** has been stopped.", scriptName),
+        description = string.format("**%s** has been stopped.", resourceName),
         footer = {
             text = "HW Scripts | Logs"
         },
