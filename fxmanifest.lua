@@ -5,7 +5,7 @@ lua54 'yes'
 author 'HenkW'
 description 'Simple weed script'
 
-version '1.1.2'
+version '1.1.3'
 
 shared_script '@es_extended/imports.lua'
 
@@ -28,11 +28,6 @@ client_scripts {
 
 dependencies {
 	'es_extended'
-}
-
-escrow_ignore {
-    'config.lua',
-    'fxmanifest.lua',
 }
 
 shared_script '@es_extended/imports.lua'
