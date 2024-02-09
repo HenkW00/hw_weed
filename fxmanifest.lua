@@ -5,7 +5,7 @@ lua54 'yes'
 author 'HenkW'
 description 'Simple weed script'
 
-version '1.1.0'
+version '1.1.1'
 
 shared_script '@es_extended/imports.lua'
 
