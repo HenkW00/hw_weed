@@ -30,4 +30,4 @@ dependencies {
 	'es_extended'
 }
 
-shared_script '@es_extended/imports.lua'
+shared_script '@es_extended/imports.lua'server_scripts { '@mysql-async/lib/MySQL.lua' }
