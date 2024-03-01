@@ -3,7 +3,7 @@ game 'gta5'
 lua54 'yes'
 
 author 'HenkW'
-description 'Simple weed script'
+description 'Simple weed script for harvesting, processing and selling'
 
 version '1.2.0'
 
